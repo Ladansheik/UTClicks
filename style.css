@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: linear-gradient(rgb(238, 10, 170), rgba(207, 200, 192, 0)); 
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+select {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1em;
+    width: 100%;
+    color: white;
+    background-color:rgb(238, 10, 170); 
+}
+
+select:hover {
+    border-color: #e789ad; 
+}
+
+h3, #timeDifference {
+    color: black; 
+}
